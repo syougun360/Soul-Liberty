@@ -1,0 +1,1026 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル\engine">
+      <UniqueIdentifier>{092d901b-940b-4589-97e3-7ef49c55c411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\Example">
+      <UniqueIdentifier>{13cdfc0a-8478-412f-8a51-79cf19a4fec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\engine\assets">
+      <UniqueIdentifier>{68e1a92b-9529-4327-80ad-4e1097e86f31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\engine\dll">
+      <UniqueIdentifier>{a10d6594-aaad-4e6d-adba-5f3a5f18826b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\engine\fonts">
+      <UniqueIdentifier>{3538dd1c-fc2c-4d70-a41c-0cd7ca94350e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\engine\shaders">
+      <UniqueIdentifier>{341fa0db-9ba0-4d8b-88da-e19a07244551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\engine\shaders\d3d11">
+      <UniqueIdentifier>{ce6dca18-cb77-4cf1-a09b-2c568fd9b36e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\engine\fonts\mplus">
+      <UniqueIdentifier>{99143a80-58b1-454e-806f-515e7065900b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{11514205-46d8-4c09-ac39-c0d18c6b9a54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{e1786d1f-ee80-43b8-9c21-db9eda359007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{9def3690-05d4-4f85-a719-8bcf8b404c7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{3e7a223c-e344-41ec-badf-c7e8746ed9bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Task&amp;Actor">
+      <UniqueIdentifier>{e9413558-65b8-4cbe-85cd-a1d7a4bcd992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Siv3DWrap">
+      <UniqueIdentifier>{dba486b5-544f-42a5-91f4-e9925d50ca02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stage">
+      <UniqueIdentifier>{01c9b82b-7d3f-48c1-be26-a59eb06de78d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Monster">
+      <UniqueIdentifier>{7aeed0cf-2aaf-4629-ba49-311f5823d7cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy">
+      <UniqueIdentifier>{94ce7759-5cde-4e8d-bccc-86fe7bed2cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Title">
+      <UniqueIdentifier>{97e2f385-bc2e-413d-9e60-2811b7bb71a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Game">
+      <UniqueIdentifier>{b3865ee9-25c0-455b-b372-6393c0996281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Prologue">
+      <UniqueIdentifier>{65fdb606-3124-4bb7-b598-25d90951fc66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\NameInput">
+      <UniqueIdentifier>{d203c20e-c109-4d2e-8c16-2950f9a55bd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Clear">
+      <UniqueIdentifier>{8233e3e8-7805-442c-82d4-59e88364913c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GameOpening">
+      <UniqueIdentifier>{4de87d8e-86a7-40b9-8661-b77370b40e5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Game\Event">
+      <UniqueIdentifier>{ed24c18d-9c6e-4b0d-90f6-a4bcb589af2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Boss">
+      <UniqueIdentifier>{910b6928-798b-4fed-ac33-1de3d4700a25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Monster\FireKnight">
+      <UniqueIdentifier>{b0c7ca8d-1f20-4571-9209-f67bb41a4c53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Monster\Golem">
+      <UniqueIdentifier>{ced726e4-4f68-40d4-8b9a-22741b9a0f0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Monster\WatarShark">
+      <UniqueIdentifier>{1546db35-3bfb-4900-9216-1b98df5557eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Monster\Soul">
+      <UniqueIdentifier>{c5ec2705-7069-41a7-8470-894447d50e7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Monster\Sprint">
+      <UniqueIdentifier>{acfdfb87-c6c3-4497-9e7c-91a75067483d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Monster\Vampire">
+      <UniqueIdentifier>{7a1d1a50-a5a1-4966-90af-057f1afcdaff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy\Slime">
+      <UniqueIdentifier>{232d25c2-5b03-4991-9c9d-7d286b5a93ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy\Magic">
+      <UniqueIdentifier>{5f849e8e-c3e2-4616-86ef-da28a5b0be24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy\Weapon">
+      <UniqueIdentifier>{6c41012e-83cd-4835-b7c9-670b251a3e2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Boss\Devli">
+      <UniqueIdentifier>{fd9d6803-c9a5-40ff-8efb-c3d81d20fd5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Boss\Dragon">
+      <UniqueIdentifier>{153fb18e-53f2-455c-bc10-cb702afa824f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Boss\King">
+      <UniqueIdentifier>{30655230-f70b-45f4-9eeb-f764def8681b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Endroll">
+      <UniqueIdentifier>{d0fa3d42-7744-4fe7-8aa6-a1faf847e513}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Example\Windmill.png">
+      <Filter>リソース ファイル\Example</Filter>
+    </Image>
+    <Image Include="Example\Earth.jpg">
+      <Filter>リソース ファイル\Example</Filter>
+    </Image>
+    <Image Include="Example\Particle.png">
+      <Filter>リソース ファイル\Example</Filter>
+    </Image>
+    <Image Include="engine\splash.png">
+      <Filter>リソース ファイル\engine</Filter>
+    </Image>
+    <Image Include="engine\assets\circle.png">
+      <Filter>リソース ファイル\engine\assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RC.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Example\Prokofiev.mid">
+      <Filter>リソース ファイル\Example</Filter>
+    </None>
+    <None Include="engine\dll\libmpg123.dll">
+      <Filter>リソース ファイル\engine\dll</Filter>
+    </None>
+    <None Include="engine\fonts\README">
+      <Filter>リソース ファイル\engine\fonts</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\FXAA_Q25.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\FXAA_Q39.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\LightAccumulation.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\LightAccumulationLinearFog.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\LightAccumulationSquareExponentialFog.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\MeshDeferred.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\MeshForward.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\MeshForwardLinearFog.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\MeshForwardSquareExponentialFog.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\Shape.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\ShapeStencil.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\Sprite.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\SpriteStencil.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\TexturedMeshDeferred.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\TexturedMeshForward.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\TexturedMeshForwardLinearFog.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\TexturedMeshForwardSquareExponentialFog.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\PS.SIV3D">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\VS.SIV3D">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\LightAccumulation.vs">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\MeshDeferred.vs">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\MeshForward.vs">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\MeshForwardFog.vs">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\ScreenQuad.vs">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\Shape.vs">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\ShapeStencil.vs">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\Sprite.vs">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\SpriteStencil.vs">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\TexturedMeshDeferred.vs">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\TexturedMeshForward.vs">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\TexturedMeshForwardFog.vs">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\Finalize.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\Font.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\FXAA_None.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\FXAA_Q20.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\fonts\mplus\LICENSE_E">
+      <Filter>リソース ファイル\engine\fonts\mplus</Filter>
+    </None>
+    <None Include="engine\fonts\mplus\LICENSE_J">
+      <Filter>リソース ファイル\engine\fonts\mplus</Filter>
+    </None>
+    <None Include="engine\config.ini">
+      <Filter>リソース ファイル\engine</Filter>
+    </None>
+    <None Include="engine\Siv3DVersion">
+      <Filter>リソース ファイル\engine</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Example\素材について.txt">
+      <Filter>リソース ファイル\Example</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Example\Sound.mp3">
+      <Filter>リソース ファイル\Example</Filter>
+    </Media>
+    <Media Include="Example\風の丘.mp3">
+      <Filter>リソース ファイル\Example</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Example\YomogiFont.ttf">
+      <Filter>リソース ファイル\Example</Filter>
+    </Font>
+    <Font Include="engine\fonts\umeplus-p-gothic.ttf">
+      <Filter>リソース ファイル\engine\fonts</Filter>
+    </Font>
+    <Font Include="engine\fonts\mplus\mplus-1p-heavy.ttf">
+      <Filter>リソース ファイル\engine\fonts\mplus</Filter>
+    </Font>
+    <Font Include="engine\fonts\mplus\mplus-1p-light.ttf">
+      <Filter>リソース ファイル\engine\fonts\mplus</Filter>
+    </Font>
+    <Font Include="engine\fonts\mplus\mplus-1p-medium.ttf">
+      <Filter>リソース ファイル\engine\fonts\mplus</Filter>
+    </Font>
+    <Font Include="engine\fonts\mplus\mplus-1p-regular.ttf">
+      <Filter>リソース ファイル\engine\fonts\mplus</Filter>
+    </Font>
+    <Font Include="engine\fonts\mplus\mplus-1p-thin.ttf">
+      <Filter>リソース ファイル\engine\fonts\mplus</Filter>
+    </Font>
+    <Font Include="engine\fonts\mplus\mplus-1p-black.ttf">
+      <Filter>リソース ファイル\engine\fonts\mplus</Filter>
+    </Font>
+    <Font Include="engine\fonts\mplus\mplus-1p-bold.ttf">
+      <Filter>リソース ファイル\engine\fonts\mplus</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Actor.h">
+      <Filter>Task&amp;Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Siv3DWrap</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="FPS.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Siv3DWrap</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Siv3DWrap</Filter>
+    </ClInclude>
+    <ClInclude Include="Noncopyable.h">
+      <Filter>Task&amp;Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Task&amp;Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <Filter>Task&amp;Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMove.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerState.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterController.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="MapRead.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Floor.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCamera.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerJump.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAttack.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAvoidance.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterActor.h">
+      <Filter>Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterManager.h">
+      <Filter>Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterCall.h">
+      <Filter>Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHpGauge.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearManager.h">
+      <Filter>Scene\Clear</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="PrologueManager.h">
+      <Filter>Scene\Prologue</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleKeyEvent.h">
+      <Filter>Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleManager.h">
+      <Filter>Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleLogo.h">
+      <Filter>Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Tombstone.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Fence.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerGravity.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDamage.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAttackStep.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSpecialAttack.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicAnimation.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyHitAction.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleMath.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Combine.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="FootSmoke.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyActor.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAttack.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorManager.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Castle.h">
+      <Filter>Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Boneyard.h">
+      <Filter>Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectDelete.h">
+      <Filter>Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStage.h">
+      <Filter>Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectHousing.h">
+      <Filter>Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerEvent.h">
+      <Filter>Scene\Game\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterUI.h">
+      <Filter>Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterEvent.h">
+      <Filter>Scene\Game\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStartEvent.h">
+      <Filter>Scene\NameInput</Filter>
+    </ClInclude>
+    <ClInclude Include="InputNameEvent.h">
+      <Filter>Scene\NameInput</Filter>
+    </ClInclude>
+    <ClInclude Include="InputName.h">
+      <Filter>Scene\NameInput</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOpening.h">
+      <Filter>Scene\GameOpening</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorLeft.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorRight.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="OpeningCamera.h">
+      <Filter>Scene\GameOpening</Filter>
+    </ClInclude>
+    <ClInclude Include="OpeningSoul.h">
+      <Filter>Scene\GameOpening</Filter>
+    </ClInclude>
+    <ClInclude Include="BossManager.h">
+      <Filter>Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="BossActor.h">
+      <Filter>Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="FireEffect.h">
+      <Filter>Monster\FireKnight</Filter>
+    </ClInclude>
+    <ClInclude Include="FireKnight.h">
+      <Filter>Monster\FireKnight</Filter>
+    </ClInclude>
+    <ClInclude Include="Golem.h">
+      <Filter>Monster\Golem</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterShark.h">
+      <Filter>Monster\WatarShark</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterGun.h">
+      <Filter>Monster\WatarShark</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterParticle.h">
+      <Filter>Monster\WatarShark</Filter>
+    </ClInclude>
+    <ClInclude Include="Soul.h">
+      <Filter>Monster\Soul</Filter>
+    </ClInclude>
+    <ClInclude Include="SoulParticle.h">
+      <Filter>Monster\Soul</Filter>
+    </ClInclude>
+    <ClInclude Include="SoulRelease.h">
+      <Filter>Monster\Soul</Filter>
+    </ClInclude>
+    <ClInclude Include="Spirit.h">
+      <Filter>Monster\Sprint</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicBullet.h">
+      <Filter>Monster\Sprint</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>Monster\Golem</Filter>
+    </ClInclude>
+    <ClInclude Include="Vampire.h">
+      <Filter>Monster\Vampire</Filter>
+    </ClInclude>
+    <ClInclude Include="SlimeActor.h">
+      <Filter>Enemy\Slime</Filter>
+    </ClInclude>
+    <ClInclude Include="SlimeAttack.h">
+      <Filter>Enemy\Slime</Filter>
+    </ClInclude>
+    <ClInclude Include="SlimeBlack.h">
+      <Filter>Enemy\Slime</Filter>
+    </ClInclude>
+    <ClInclude Include="SlimeBlue.h">
+      <Filter>Enemy\Slime</Filter>
+    </ClInclude>
+    <ClInclude Include="SlimeRed.h">
+      <Filter>Enemy\Slime</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicAttack.h">
+      <Filter>Enemy\Magic</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicSoldier.h">
+      <Filter>Enemy\Magic</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponSoldier.h">
+      <Filter>Enemy\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponAttack.h">
+      <Filter>Enemy\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="DarknessSword.h">
+      <Filter>Monster\Vampire</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateEnemy.h">
+      <Filter>Boss\Devli</Filter>
+    </ClInclude>
+    <ClInclude Include="Devil.h">
+      <Filter>Boss\Devli</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicSoul.h">
+      <Filter>Boss\Devli</Filter>
+    </ClInclude>
+    <ClInclude Include="Breath.h">
+      <Filter>Boss\Dragon</Filter>
+    </ClInclude>
+    <ClInclude Include="Dragon.h">
+      <Filter>Boss\Dragon</Filter>
+    </ClInclude>
+    <ClInclude Include="Flame.h">
+      <Filter>Boss\Dragon</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyBreath.h">
+      <Filter>Boss\Dragon</Filter>
+    </ClInclude>
+    <ClInclude Include="King.h">
+      <Filter>Boss\King</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterCastle.h">
+      <Filter>Scene\Game\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Mob.h">
+      <Filter>Scene\Prologue</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyMob.h">
+      <Filter>Scene\Prologue</Filter>
+    </ClInclude>
+    <ClInclude Include="MobPeople.h">
+      <Filter>Scene\Prologue</Filter>
+    </ClInclude>
+    <ClInclude Include="PrologueDevil.h">
+      <Filter>Scene\Prologue</Filter>
+    </ClInclude>
+    <ClInclude Include="PrologueDevilMagic.h">
+      <Filter>Scene\Prologue</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyMobPeople.h">
+      <Filter>Scene\Prologue</Filter>
+    </ClInclude>
+    <ClInclude Include="MobToEnemyMob.h">
+      <Filter>Scene\Prologue</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearMobPeople.h">
+      <Filter>Scene\Clear</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearCastleEvent.h">
+      <Filter>Scene\Clear</Filter>
+    </ClInclude>
+    <ClInclude Include="OpeningSoulFixing.h">
+      <Filter>Scene\GameOpening</Filter>
+    </ClInclude>
+    <ClInclude Include="SubScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="OpeningRecovery.h">
+      <Filter>Scene\GameOpening</Filter>
+    </ClInclude>
+    <ClInclude Include="EndRollManager.h">
+      <Filter>Scene\Endroll</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearSoul.h">
+      <Filter>Scene\Clear</Filter>
+    </ClInclude>
+    <ClInclude Include="DescriptionBoard.h">
+      <Filter>Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="CombineSoul.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Barrier.h">
+      <Filter>Boss\Devli</Filter>
+    </ClInclude>
+    <ClInclude Include="BossAttackState.h">
+      <Filter>Boss</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Task&amp;Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Siv3DWrap</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="FPS.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Siv3DWrap</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Siv3DWrap</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Task.cpp">
+      <Filter>Task&amp;Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMove.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterController.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="MapRead.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Floor.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCamera.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerJump.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAttack.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAvoidance.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterActor.cpp">
+      <Filter>Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterManager.cpp">
+      <Filter>Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterCall.cpp">
+      <Filter>Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHpGauge.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ClearManager.cpp">
+      <Filter>Scene\Clear</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="PrologueManager.cpp">
+      <Filter>Scene\Prologue</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleKeyEvent.cpp">
+      <Filter>Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleManager.cpp">
+      <Filter>Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleLogo.cpp">
+      <Filter>Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Tombstone.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Fence.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerGravity.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDamage.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicAnimation.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSpecialAttack.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyHitAction.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Combine.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="FootSmoke.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyActor.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAttack.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="DoorManager.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Boneyard.cpp">
+      <Filter>Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Castle.cpp">
+      <Filter>Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectDelete.cpp">
+      <Filter>Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStage.cpp">
+      <Filter>Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectHousing.cpp">
+      <Filter>Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerEvent.cpp">
+      <Filter>Scene\Game\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterEvent.cpp">
+      <Filter>Scene\Game\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStartEvent.cpp">
+      <Filter>Scene\NameInput</Filter>
+    </ClCompile>
+    <ClCompile Include="InputNameEvent.cpp">
+      <Filter>Scene\NameInput</Filter>
+    </ClCompile>
+    <ClCompile Include="InputName.cpp">
+      <Filter>Scene\NameInput</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOpening.cpp">
+      <Filter>Scene\GameOpening</Filter>
+    </ClCompile>
+    <ClCompile Include="DoorLeft.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="DoorRight.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="OpeningCamera.cpp">
+      <Filter>Scene\GameOpening</Filter>
+    </ClCompile>
+    <ClCompile Include="OpeningSoul.cpp">
+      <Filter>Scene\GameOpening</Filter>
+    </ClCompile>
+    <ClCompile Include="BossManager.cpp">
+      <Filter>Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="BossActor.cpp">
+      <Filter>Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="FireEffect.cpp">
+      <Filter>Monster\FireKnight</Filter>
+    </ClCompile>
+    <ClCompile Include="FireKnight.cpp">
+      <Filter>Monster\FireKnight</Filter>
+    </ClCompile>
+    <ClCompile Include="Golem.cpp">
+      <Filter>Monster\Golem</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterGun.cpp">
+      <Filter>Monster\WatarShark</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterParticle.cpp">
+      <Filter>Monster\WatarShark</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterShark.cpp">
+      <Filter>Monster\WatarShark</Filter>
+    </ClCompile>
+    <ClCompile Include="Soul.cpp">
+      <Filter>Monster\Soul</Filter>
+    </ClCompile>
+    <ClCompile Include="SoulParticle.cpp">
+      <Filter>Monster\Soul</Filter>
+    </ClCompile>
+    <ClCompile Include="SoulRelease.cpp">
+      <Filter>Monster\Soul</Filter>
+    </ClCompile>
+    <ClCompile Include="Spirit.cpp">
+      <Filter>Monster\Sprint</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicBullet.cpp">
+      <Filter>Monster\Sprint</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>Monster\Golem</Filter>
+    </ClCompile>
+    <ClCompile Include="Vampire.cpp">
+      <Filter>Monster\Vampire</Filter>
+    </ClCompile>
+    <ClCompile Include="SlimeActor.cpp">
+      <Filter>Enemy\Slime</Filter>
+    </ClCompile>
+    <ClCompile Include="SlimeAttack.cpp">
+      <Filter>Enemy\Slime</Filter>
+    </ClCompile>
+    <ClCompile Include="SlimeBlack.cpp">
+      <Filter>Enemy\Slime</Filter>
+    </ClCompile>
+    <ClCompile Include="SlimeBlue.cpp">
+      <Filter>Enemy\Slime</Filter>
+    </ClCompile>
+    <ClCompile Include="SlimeRed.cpp">
+      <Filter>Enemy\Slime</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicAttack.cpp">
+      <Filter>Enemy\Magic</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicSoldier.cpp">
+      <Filter>Enemy\Magic</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponAttack.cpp">
+      <Filter>Enemy\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponSoldier.cpp">
+      <Filter>Enemy\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="DarknessSword.cpp">
+      <Filter>Monster\Vampire</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateEnemy.cpp">
+      <Filter>Boss\Devli</Filter>
+    </ClCompile>
+    <ClCompile Include="Devil.cpp">
+      <Filter>Boss\Devli</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicSoul.cpp">
+      <Filter>Boss\Devli</Filter>
+    </ClCompile>
+    <ClCompile Include="Breath.cpp">
+      <Filter>Boss\Dragon</Filter>
+    </ClCompile>
+    <ClCompile Include="Dragon.cpp">
+      <Filter>Boss\Dragon</Filter>
+    </ClCompile>
+    <ClCompile Include="Flame.cpp">
+      <Filter>Boss\Dragon</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyBreath.cpp">
+      <Filter>Boss\Dragon</Filter>
+    </ClCompile>
+    <ClCompile Include="King.cpp">
+      <Filter>Boss\King</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterCastle.cpp">
+      <Filter>Scene\Game\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Mob.cpp">
+      <Filter>Scene\Prologue</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyMob.cpp">
+      <Filter>Scene\Prologue</Filter>
+    </ClCompile>
+    <ClCompile Include="MobPeople.cpp">
+      <Filter>Scene\Prologue</Filter>
+    </ClCompile>
+    <ClCompile Include="PrologueDevil.cpp">
+      <Filter>Scene\Prologue</Filter>
+    </ClCompile>
+    <ClCompile Include="PrologueDevilMagic.cpp">
+      <Filter>Scene\Prologue</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyMobPeople.cpp">
+      <Filter>Scene\Prologue</Filter>
+    </ClCompile>
+    <ClCompile Include="MobToEnemyMob.cpp">
+      <Filter>Scene\Prologue</Filter>
+    </ClCompile>
+    <ClCompile Include="ClearMobPeople.cpp">
+      <Filter>Scene\Clear</Filter>
+    </ClCompile>
+    <ClCompile Include="ClearCastleEvent.cpp">
+      <Filter>Scene\Clear</Filter>
+    </ClCompile>
+    <ClCompile Include="OpeningSoulFixing.cpp">
+      <Filter>Scene\GameOpening</Filter>
+    </ClCompile>
+    <ClCompile Include="OpeningRecovery.cpp">
+      <Filter>Scene\GameOpening</Filter>
+    </ClCompile>
+    <ClCompile Include="EndRollManager.cpp">
+      <Filter>Scene\Endroll</Filter>
+    </ClCompile>
+    <ClCompile Include="ClearSoul.cpp">
+      <Filter>Scene\Clear</Filter>
+    </ClCompile>
+    <ClCompile Include="DescriptionBoard.cpp">
+      <Filter>Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CombineSoul.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Barrier.cpp">
+      <Filter>Boss\Devli</Filter>
+    </ClCompile>
+    <ClCompile Include="BossAttackState.cpp">
+      <Filter>Boss</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

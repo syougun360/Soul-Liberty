@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F48A8C9F-13C7-443D-A3F3-1F09A968BC78}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Soul_Liberty</RootNamespace>
+    <ProjectName>Soul-Liberty</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>../../\Soul-Liberty\Siv3DPackage\Inc;../../\Soul-Liberty\Siv3DPackage\Inc\boostMinimal;$(IncludePath)</IncludePath>
+    <LibraryPath>../../\Soul-Liberty\Siv3DPackage\Lib;$(LibraryPath)</LibraryPath>
+    <OutDir>..\bin</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>../../\Soul-Liberty\Siv3DPackage\Inc;../../\Soul-Liberty\Siv3DPackage\Inc\boostMinimal;$(IncludePath)</IncludePath>
+    <LibraryPath>../../\Soul-Liberty\Siv3DPackage\Lib;$(LibraryPath)</LibraryPath>
+    <OutDir>..\bin</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Image Include="engine\assets\circle.png" />
+    <Image Include="engine\splash.png" />
+    <Image Include="Example\Earth.jpg" />
+    <Image Include="Example\Particle.png" />
+    <Image Include="Example\Windmill.png" />
+    <Image Include="icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RC.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="engine\config.ini" />
+    <None Include="engine\dll\libmpg123.dll" />
+    <None Include="engine\fonts\mplus\LICENSE_E" />
+    <None Include="engine\fonts\mplus\LICENSE_J" />
+    <None Include="engine\fonts\README" />
+    <None Include="engine\shaders\d3d11\Finalize.ps" />
+    <None Include="engine\shaders\d3d11\Font.ps" />
+    <None Include="engine\shaders\d3d11\FXAA_None.ps" />
+    <None Include="engine\shaders\d3d11\FXAA_Q20.ps" />
+    <None Include="engine\shaders\d3d11\FXAA_Q25.ps" />
+    <None Include="engine\shaders\d3d11\FXAA_Q39.ps" />
+    <None Include="engine\shaders\d3d11\LightAccumulation.ps" />
+    <None Include="engine\shaders\d3d11\LightAccumulation.vs" />
+    <None Include="engine\shaders\d3d11\LightAccumulationLinearFog.ps" />
+    <None Include="engine\shaders\d3d11\LightAccumulationSquareExponentialFog.ps" />
+    <None Include="engine\shaders\d3d11\MeshDeferred.ps" />
+    <None Include="engine\shaders\d3d11\MeshDeferred.vs" />
+    <None Include="engine\shaders\d3d11\MeshForward.ps" />
+    <None Include="engine\shaders\d3d11\MeshForward.vs" />
+    <None Include="engine\shaders\d3d11\MeshForwardFog.vs" />
+    <None Include="engine\shaders\d3d11\MeshForwardLinearFog.ps" />
+    <None Include="engine\shaders\d3d11\MeshForwardSquareExponentialFog.ps" />
+    <None Include="engine\shaders\d3d11\PS.SIV3D" />
+    <None Include="engine\shaders\d3d11\ScreenQuad.vs" />
+    <None Include="engine\shaders\d3d11\Shape.ps" />
+    <None Include="engine\shaders\d3d11\Shape.vs" />
+    <None Include="engine\shaders\d3d11\ShapeStencil.ps" />
+    <None Include="engine\shaders\d3d11\ShapeStencil.vs" />
+    <None Include="engine\shaders\d3d11\Sprite.ps" />
+    <None Include="engine\shaders\d3d11\Sprite.vs" />
+    <None Include="engine\shaders\d3d11\SpriteStencil.ps" />
+    <None Include="engine\shaders\d3d11\SpriteStencil.vs" />
+    <None Include="engine\shaders\d3d11\TexturedMeshDeferred.ps" />
+    <None Include="engine\shaders\d3d11\TexturedMeshDeferred.vs" />
+    <None Include="engine\shaders\d3d11\TexturedMeshForward.ps" />
+    <None Include="engine\shaders\d3d11\TexturedMeshForward.vs" />
+    <None Include="engine\shaders\d3d11\TexturedMeshForwardFog.vs" />
+    <None Include="engine\shaders\d3d11\TexturedMeshForwardLinearFog.ps" />
+    <None Include="engine\shaders\d3d11\TexturedMeshForwardSquareExponentialFog.ps" />
+    <None Include="engine\shaders\d3d11\VS.SIV3D" />
+    <None Include="engine\Siv3DVersion" />
+    <None Include="Example\Prokofiev.mid" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Example\素材について.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Example\Sound.mp3" />
+    <Media Include="Example\風の丘.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="engine\fonts\mplus\mplus-1p-black.ttf" />
+    <Font Include="engine\fonts\mplus\mplus-1p-bold.ttf" />
+    <Font Include="engine\fonts\mplus\mplus-1p-heavy.ttf" />
+    <Font Include="engine\fonts\mplus\mplus-1p-light.ttf" />
+    <Font Include="engine\fonts\mplus\mplus-1p-medium.ttf" />
+    <Font Include="engine\fonts\mplus\mplus-1p-regular.ttf" />
+    <Font Include="engine\fonts\mplus\mplus-1p-thin.ttf" />
+    <Font Include="engine\fonts\umeplus-p-gothic.ttf" />
+    <Font Include="Example\YomogiFont.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Actor.h" />
+    <ClInclude Include="Boneyard.h" />
+    <ClInclude Include="BossActor.h" />
+    <ClInclude Include="BossManager.h" />
+    <ClInclude Include="Barrier.h" />
+    <ClInclude Include="Breath.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Castle.h" />
+    <ClInclude Include="CharacterController.h" />
+    <ClInclude Include="ClearCastleEvent.h" />
+    <ClInclude Include="ClearManager.h" />
+    <ClInclude Include="ClearMobPeople.h" />
+    <ClInclude Include="ClearSoul.h" />
+    <ClInclude Include="Collision.h" />
+    <ClInclude Include="Combine.h" />
+    <ClInclude Include="CombineSoul.h" />
+    <ClInclude Include="CreateEnemy.h" />
+    <ClInclude Include="DarknessSword.h" />
+    <ClInclude Include="DescriptionBoard.h" />
+    <ClInclude Include="Devil.h" />
+    <ClInclude Include="BossAttackState.h" />
+    <ClInclude Include="DoorLeft.h" />
+    <ClInclude Include="DoorManager.h" />
+    <ClInclude Include="DoorRight.h" />
+    <ClInclude Include="Dragon.h" />
+    <ClInclude Include="EndRollManager.h" />
+    <ClInclude Include="EnemyActor.h" />
+    <ClInclude Include="EnemyAttack.h" />
+    <ClInclude Include="EnemyMob.h" />
+    <ClInclude Include="EnemyMobPeople.h" />
+    <ClInclude Include="FireEffect.h" />
+    <ClInclude Include="Flame.h" />
+    <ClInclude Include="FlyBreath.h" />
+    <ClInclude Include="GameObjectHousing.h" />
+    <ClInclude Include="GameOpening.h" />
+    <ClInclude Include="GameStage.h" />
+    <ClInclude Include="InputNameEvent.h" />
+    <ClInclude Include="King.h" />
+    <ClInclude Include="MagicAttack.h" />
+    <ClInclude Include="MagicBullet.h" />
+    <ClInclude Include="MagicSoul.h" />
+    <ClInclude Include="Mob.h" />
+    <ClInclude Include="MobToEnemyMob.h" />
+    <ClInclude Include="MonsterCastle.h" />
+    <ClInclude Include="MonsterEvent.h" />
+    <ClInclude Include="MonsterUI.h" />
+    <ClInclude Include="ObjectDelete.h" />
+    <ClInclude Include="OpeningCamera.h" />
+    <ClInclude Include="OpeningRecovery.h" />
+    <ClInclude Include="OpeningSoul.h" />
+    <ClInclude Include="MobPeople.h" />
+    <ClInclude Include="OpeningSoulFixing.h" />
+    <ClInclude Include="PlayerEvent.h" />
+    <ClInclude Include="InputName.h" />
+    <ClInclude Include="PlayerStartEvent.h" />
+    <ClInclude Include="PrologueDevil.h" />
+    <ClInclude Include="PrologueDevilMagic.h" />
+    <ClInclude Include="SubScene.h" />
+    <ClInclude Include="SlimeActor.h" />
+    <ClInclude Include="EnemyHitAction.h" />
+    <ClInclude Include="EnemyManager.h" />
+    <ClInclude Include="Fence.h" />
+    <ClInclude Include="FootSmoke.h" />
+    <ClInclude Include="Golem.h" />
+    <ClInclude Include="MagicSoldier.h" />
+    <ClInclude Include="SlimeAttack.h" />
+    <ClInclude Include="SlimeBlack.h" />
+    <ClInclude Include="SlimeBlue.h" />
+    <ClInclude Include="SlimeRed.h" />
+    <ClInclude Include="MonsterActor.h" />
+    <ClInclude Include="MonsterCall.h" />
+    <ClInclude Include="MonsterManager.h" />
+    <ClInclude Include="FireKnight.h" />
+    <ClInclude Include="Floor.h" />
+    <ClInclude Include="FPS.h" />
+    <ClInclude Include="GameApplication.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="MapRead.h" />
+    <ClInclude Include="GraphicAnimation.h" />
+    <ClInclude Include="ParticleMath.h" />
+    <ClInclude Include="PlayerAttack.h" />
+    <ClInclude Include="PlayerAttackStep.h" />
+    <ClInclude Include="PlayerAvoidance.h" />
+    <ClInclude Include="PlayerCamera.h" />
+    <ClInclude Include="PlayerDamage.h" />
+    <ClInclude Include="PlayerGravity.h" />
+    <ClInclude Include="PlayerHpGauge.h" />
+    <ClInclude Include="PlayerJump.h" />
+    <ClInclude Include="PlayerSpecialAttack.h" />
+    <ClInclude Include="PlayerState.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="Noncopyable.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="Particle.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerMove.h" />
+    <ClInclude Include="PrologueManager.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="BackGround.h" />
+    <ClInclude Include="Soul.h" />
+    <ClInclude Include="SoulParticle.h" />
+    <ClInclude Include="SoulRelease.h" />
+    <ClInclude Include="Spirit.h" />
+    <ClInclude Include="Task.h" />
+    <ClInclude Include="TitleKeyEvent.h" />
+    <ClInclude Include="TitleLogo.h" />
+    <ClInclude Include="TitleManager.h" />
+    <ClInclude Include="Tombstone.h" />
+    <ClInclude Include="Transform.h" />
+    <ClInclude Include="Tree.h" />
+    <ClInclude Include="Utility.h" />
+    <ClInclude Include="Vampire.h" />
+    <ClInclude Include="WaterGun.h" />
+    <ClInclude Include="WaterParticle.h" />
+    <ClInclude Include="WaterShark.h" />
+    <ClInclude Include="WeaponAttack.h" />
+    <ClInclude Include="WeaponSoldier.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Actor.cpp" />
+    <ClCompile Include="Boneyard.cpp" />
+    <ClCompile Include="BossActor.cpp" />
+    <ClCompile Include="BossManager.cpp" />
+    <ClCompile Include="Barrier.cpp" />
+    <ClCompile Include="Breath.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Castle.cpp" />
+    <ClCompile Include="CharacterController.cpp" />
+    <ClCompile Include="ClearCastleEvent.cpp" />
+    <ClCompile Include="ClearManager.cpp" />
+    <ClCompile Include="ClearMobPeople.cpp" />
+    <ClCompile Include="ClearSoul.cpp" />
+    <ClCompile Include="Collision.cpp" />
+    <ClCompile Include="Combine.cpp" />
+    <ClCompile Include="CombineSoul.cpp" />
+    <ClCompile Include="CreateEnemy.cpp" />
+    <ClCompile Include="DarknessSword.cpp" />
+    <ClCompile Include="DescriptionBoard.cpp" />
+    <ClCompile Include="Devil.cpp" />
+    <ClCompile Include="BossAttackState.cpp" />
+    <ClCompile Include="DoorLeft.cpp" />
+    <ClCompile Include="DoorManager.cpp" />
+    <ClCompile Include="DoorRight.cpp" />
+    <ClCompile Include="Dragon.cpp" />
+    <ClCompile Include="EndRollManager.cpp" />
+    <ClCompile Include="EnemyActor.cpp" />
+    <ClCompile Include="EnemyAttack.cpp" />
+    <ClCompile Include="EnemyMob.cpp" />
+    <ClCompile Include="EnemyMobPeople.cpp" />
+    <ClCompile Include="FireEffect.cpp" />
+    <ClCompile Include="Flame.cpp" />
+    <ClCompile Include="FlyBreath.cpp" />
+    <ClCompile Include="GameObjectHousing.cpp" />
+    <ClCompile Include="GameOpening.cpp" />
+    <ClCompile Include="GameStage.cpp" />
+    <ClCompile Include="InputNameEvent.cpp" />
+    <ClCompile Include="King.cpp" />
+    <ClCompile Include="MagicAttack.cpp" />
+    <ClCompile Include="MagicBullet.cpp" />
+    <ClCompile Include="MagicSoul.cpp" />
+    <ClCompile Include="Mob.cpp" />
+    <ClCompile Include="MobToEnemyMob.cpp" />
+    <ClCompile Include="MonsterCastle.cpp" />
+    <ClCompile Include="MonsterEvent.cpp" />
+    <ClCompile Include="ObjectDelete.cpp" />
+    <ClCompile Include="OpeningCamera.cpp" />
+    <ClCompile Include="OpeningRecovery.cpp" />
+    <ClCompile Include="OpeningSoul.cpp" />
+    <ClCompile Include="MobPeople.cpp" />
+    <ClCompile Include="OpeningSoulFixing.cpp" />
+    <ClCompile Include="PlayerEvent.cpp" />
+    <ClCompile Include="InputName.cpp" />
+    <ClCompile Include="PlayerStartEvent.cpp" />
+    <ClCompile Include="PrologueDevil.cpp" />
+    <ClCompile Include="PrologueDevilMagic.cpp" />
+    <ClCompile Include="SlimeActor.cpp" />
+    <ClCompile Include="EnemyHitAction.cpp" />
+    <ClCompile Include="EnemyManager.cpp" />
+    <ClCompile Include="Fence.cpp" />
+    <ClCompile Include="FootSmoke.cpp" />
+    <ClCompile Include="Golem.cpp" />
+    <ClCompile Include="MagicSoldier.cpp" />
+    <ClCompile Include="SlimeAttack.cpp" />
+    <ClCompile Include="SlimeBlack.cpp" />
+    <ClCompile Include="SlimeBlue.cpp" />
+    <ClCompile Include="SlimeRed.cpp" />
+    <ClCompile Include="MonsterActor.cpp" />
+    <ClCompile Include="MonsterCall.cpp" />
+    <ClCompile Include="MonsterManager.cpp" />
+    <ClCompile Include="FireKnight.cpp" />
+    <ClCompile Include="Floor.cpp" />
+    <ClCompile Include="FPS.cpp" />
+    <ClCompile Include="GameApplication.cpp" />
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MapRead.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="Particle.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="GraphicAnimation.cpp" />
+    <ClCompile Include="PlayerAttack.cpp" />
+    <ClCompile Include="PlayerAvoidance.cpp" />
+    <ClCompile Include="PlayerCamera.cpp" />
+    <ClCompile Include="PlayerDamage.cpp" />
+    <ClCompile Include="PlayerGravity.cpp" />
+    <ClCompile Include="PlayerHpGauge.cpp" />
+    <ClCompile Include="PlayerJump.cpp" />
+    <ClCompile Include="PlayerMove.cpp" />
+    <ClCompile Include="PlayerSpecialAttack.cpp" />
+    <ClCompile Include="PrologueManager.cpp" />
+    <ClCompile Include="Resource.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="BackGround.cpp" />
+    <ClCompile Include="Soul.cpp" />
+    <ClCompile Include="SoulParticle.cpp" />
+    <ClCompile Include="SoulRelease.cpp" />
+    <ClCompile Include="Spirit.cpp" />
+    <ClCompile Include="Task.cpp" />
+    <ClCompile Include="TitleKeyEvent.cpp" />
+    <ClCompile Include="TitleLogo.cpp" />
+    <ClCompile Include="TitleManager.cpp" />
+    <ClCompile Include="Tombstone.cpp" />
+    <ClCompile Include="Transform.cpp" />
+    <ClCompile Include="Tree.cpp" />
+    <ClCompile Include="Utility.cpp" />
+    <ClCompile Include="Vampire.cpp" />
+    <ClCompile Include="WaterGun.cpp" />
+    <ClCompile Include="WaterParticle.cpp" />
+    <ClCompile Include="WaterShark.cpp" />
+    <ClCompile Include="WeaponAttack.cpp" />
+    <ClCompile Include="WeaponSoldier.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
